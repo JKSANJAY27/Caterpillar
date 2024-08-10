@@ -1,0 +1,25 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://trakindo.co.id/cfind/convert/webp/thumb/images/technology/cover_w2160_h721_cat-inspect-image-1.jpg.webp")
+      no-repeat center center;
+    background-size: cover;
+    border: 5px solid yellow;
+    position: relative;
+  }
+  
+  /* Container for the form */
+  .form-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100px;
+    width: 100%;
+    animation: slideIn 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    
+  }
